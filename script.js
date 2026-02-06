@@ -42,7 +42,6 @@ function b() {
   console.log(result);
 }
 b();
-
 //======================================
 console.log("================================================");
 console.log("c()");
@@ -57,7 +56,6 @@ function c() {
   console.log("average: " + total / ageRange.length);
 }
 c();
-
 //======================================
 console.log("================================================");
 console.log("aa()");
