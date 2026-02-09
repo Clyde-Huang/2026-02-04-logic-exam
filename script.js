@@ -42,7 +42,6 @@ function b() {
   console.log(result);
 }
 b();
-
 //======================================
 console.log("================================================");
 console.log("c()");
@@ -57,7 +56,6 @@ function c() {
   console.log("average: " + total / ageRange.length);
 }
 c();
-
 //======================================
 console.log("================================================");
 console.log("aa()");
@@ -77,10 +75,8 @@ function aa() {
   // console.log("不重複區域：", count); // 檢查用
 
   let result = [];
-
   count.forEach((edu) => {
     let num = myData.filter((f) => f.education === edu).length;
-
     result.push({ [edu]: num });
   });
   console.log(result);
